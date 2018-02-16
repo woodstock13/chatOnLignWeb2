@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<messages>
+
+<message>
+
+  <idChannel>principal</idChannel>
+  <dateTime>1518795516807</dateTime>
+  <idPseudo>admin</idPseudo>
+  <message>mon message</message>
+
+
+</message>
+
+
+<message>
+  <idChannel>principal</idChannel>
+  <dateTime>1518795516807</dateTime>
+  <idPseudo>admin</idPseudo>
+  <message>mon message</message>
+
+</message>
+
+<message>
+  <idChannel>principal</idChannel>
+  <dateTime>1518795516807</dateTime>
+  <idPseudo>admin</idPseudo>
+  <message>mon message</message>
+
+</message>
+</messages>
