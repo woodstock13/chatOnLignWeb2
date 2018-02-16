@@ -89,6 +89,24 @@
 						</div>
 					</div>
 				</div>
+				<div id="myConversation" style="visibility:hidden;" class="row">
+					<div class="col-md-6">
+						<div class="card mb-4 box-shadow">
+							<h2 id="titleConversation">Conversation </h2>
+							<div class="card-body">
+								<p id="historique_message" class="card-text">Vos messages avec Monsieur X apparraissent ici.</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="col-md-6">
+										<div class="card mb-4 box-shadow">
+											<input id="message" name="message" class="form-control" placeholder="Entez votre message">
+											<button id="envoyer_message" type="button" class="btn btn-primary">Envoyer</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</main>
@@ -113,7 +131,7 @@
 				</div>
 				<div id="login" class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
-					<button id="validateID" type="button" class="btn btn-primary">Valider</button>
+					<button id="joinID" type="button" class="btn btn-primary">Valider</button>
 				</div>
 			</div>
 		</div>
@@ -133,7 +151,8 @@
 					<div class="input-group mb-12">
 						<div class="input-group-prepend">
 							<label for="idChannel">Nom Channel:</label>
-							<input id="idChannel" type="text" class="form-control" placeholder="idChannel" aria-label="idChannel" aria-describedby="basic-addon1"> <br />
+							<input id="idChannel" type="text" class="form-control" placeholder="idChannel" aria-label="idChannel" aria-describedby="basic-addon1">
+							<br />
 							<label for="idPseudo">Invité(s): </label>
 							<input id="idPseudo" type="text" class="form-control" placeholder="text" aria-label="text" aria-describedby="basic-addon1">
 						</div>
