@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+
+<head>
+	<title>Blabla.io</title>
+	<!-- <meta http-equiv="Cache-Control" content="no-store" /> -->
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous">
+	<link href="css/exo1.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="../libs/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="./js/global.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	 crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	 crossorigin="anonymous"></script>
+</head>
+
+<body class="text-center">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">blabla.io</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+		 aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home
+						<span class="sr-only">(current)</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">HelloWorld!</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+		<main role="main" class="inner cover">
+			<h1 class="cover-heading">Discutez de manière collaborative !</h1>
+			<p class="lead">Allez viens on est bien...</p>
+			<p class="lead">
+				<a href="#" class="btn btn-lg btn-primary">S'inscrire!</a>
+				<button type="button" class="btn btn-lg btn-info" data-toggle="modal" data-target="#exampleModal" >Se co!</button>
+			</p>
+		</main>
+		<!-- Modal Connexion-->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Connexion</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">								
+								<input id="login" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"> <br />
+								<input id="password" type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+							</div>							
+						  </div>
+					</div>
+					<div id="login" class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+						<button id="validateID" type="button" class="btn btn-primary">Valider</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END Modal -->
+		<footer class="mastfoot mt-auto">
+			<div class="inner">
+				<p>Fait par:
+					<a href="https://getbootstrap.com/">Bootstrap</a>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>

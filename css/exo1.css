@@ -1,0 +1,59 @@
+div.Boite
+{
+	margin: 0 auto; 
+	border:1px solid #444444;
+	width: 70%;
+	max-width:600px;
+	min-width:250px;
+	height: auto;
+	line-height: 1.5em;
+}
+div.Boite h1
+{
+	margin:0 0 10px 0;
+	padding:0 0 2px 0;
+	border:none;
+	width: 100%;
+	height: auto;
+	background: #888888;
+	color : #FFFFFF;
+	overflow: hidden;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size:1em;
+	text-align:center;
+}
+div.navigation
+{
+	border:none;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+}
+
+div.navigation ul
+{
+}
+
+div.navigation li
+{
+	display: table-cell;
+	list-style-type: none;
+	padding: 10px 20px;
+	border:1px solid #C0C0C0;
+	cursor:pointer;
+	
+}
+div.navigation li:hover
+{
+	border-top:1px solid #000000;
+	border-bottom:1px solid #000000;
+	background:#CCCCCC;
+	color:#333333;
+}
+div.navigation li.Actif
+{
+	background:#7777BB;
+	color:#FF0000;
+}
+
+
